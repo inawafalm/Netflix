@@ -1,0 +1,101 @@
+body {
+  background-color: black;
+}
+
+.container {
+  font-family: Arial, sans-serif;
+  color: white;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: red;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.sign-in .btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.main-content {
+  text-align: center;
+  margin-top: 150px;
+  padding: 20px;
+}
+
+.main-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.main-content h5 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.main-content p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.email-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.email-form input {
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  width: 300px;
+  max-width: 100%;
+  margin-right: 10px;
+}
+
+.email-form .get-started {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.tv-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.tv-text {
+  max-width: 500px;
+}
+
+.tv-text h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.tv-text h5 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.tv-image img {
+  width: 500px;
+  max-width: 100%;
+}
